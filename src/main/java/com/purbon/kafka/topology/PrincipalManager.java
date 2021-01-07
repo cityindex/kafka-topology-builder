@@ -43,8 +43,6 @@ public class PrincipalManager {
       return;
     }
 
-    provider.configure();
-
     List<String> principals = parseListOfPrincipals(topology);
     Map<String, ServiceAccount> accounts = loadActualClusterStateIfAvailable(plan);
 
@@ -72,7 +70,6 @@ public class PrincipalManager {
     }
 
     if (config.allowDelete() || config.isAllowDeletePrincipals()) {
-      provider.configure();
 
       List<String> principals = parseListOfPrincipals(topology);
       Map<String, ServiceAccount> accounts = loadActualClusterStateIfAvailable(plan);
