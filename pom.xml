@@ -4,7 +4,7 @@
 
   <groupId>com.gaincapital.enterprise.messaging.kafka</groupId>
   <artifactId>kafka-topology-builder</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <name>A Kafka topology builder tool</name>
   <description>
@@ -22,7 +22,7 @@
     <connection>scm:git:https://github.com/cityindex/kafka-topology-builder.git</connection>
     <developerConnection>scm:git:https://github.com/cityindex/kafka-topology-builder.git
     </developerConnection>
-    <tag>kafka-topology-builder-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
