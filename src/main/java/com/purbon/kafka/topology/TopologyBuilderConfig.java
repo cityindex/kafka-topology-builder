@@ -78,7 +78,7 @@ public class TopologyBuilderConfig {
   private static final String ALLOW_DELETE_PRINCIPALS = "allow.delete.principals";
 
   static final String CCLOUD_ENV_CONFIG = "topology.builder.ccloud.environment";
-  static final String CCLOUD_REST_ENABLED = "topology.builder.ccloud.rest.enable";
+  static final String CCLOUD_REST_ENABLED = "topology.builder.ccloud.rest.enabled";
   static final String CCLOUD_REST_URL = "topology.builder.ccloud.rest.url";
   static final String CCLOUD_EMAIL = "topology.builder.ccloud.email";
   static final String CCLOUD_PASSWORD = "topology.builder.ccloud.password";
